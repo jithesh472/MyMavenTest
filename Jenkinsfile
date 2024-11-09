@@ -52,12 +52,12 @@ pipeline {
         stage('Unit Test') {
             steps {
                 script {
-                    sh 'mvn test' // For Maven or './gradlew test' for Gradle
+                    sh 'mvn test' // or './gradlew test' for Gradle
                 }
             }
             post {
                 always {
-                    junit '**/target/surefire-reports/*.xml' // Specify test results location
+                    junit '**/target/surefire-reports/*.xml'
                 }
             }
         }
