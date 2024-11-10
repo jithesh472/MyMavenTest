@@ -3,6 +3,7 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
+// new changes for test jenkins pipeline 
 public class App {
 
     private static final String MESSAGE = "Hello World!";
@@ -17,3 +18,4 @@ public class App {
         return MESSAGE;
     }
 }
+// new changes for test jenkins pipeline 
